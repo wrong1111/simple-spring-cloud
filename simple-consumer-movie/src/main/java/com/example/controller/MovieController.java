@@ -7,9 +7,6 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
-import org.springframework.cloud.netflix.feign.FeignClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -60,17 +57,8 @@ public class MovieController {
 	@GetMapping("/user/{id}")
 	public User findById(@PathVariable Integer id) { 
 		return this.restTemplate.getForObject(userConfig.getUserServiceUrl() + id, User.class);
-//		return simpleProviderUserClient.user(id);
 	}
-//	@Autowired
-//	SimpleProviderUserClient simpleProviderUserClient;
-//	
-//	
-//	@FeignClient("simple-provider-user")
-//    interface SimpleProviderUserClient {
-//        @RequestMapping(value = "/user", method = GET)
-//        User user(Integer id);
-//    }
+ 
 
 	
     /**
