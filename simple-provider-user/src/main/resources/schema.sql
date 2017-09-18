@@ -1,0 +1,2 @@
+#DROP TABLE IF EXISTS  `user` ;
+#CREATE TABLE `user` (id INT PRIMARY KEY AUTO_INCREMENT,username VARCHAR(50) ,`name` VARCHAR(50),age INT,balance DECIMAL(12,2));
