@@ -1,0 +1,36 @@
+server:
+  port: 8010
+user:
+  userServiceUrl: http://simple-provider-user/user/
+
+spring:
+  application:
+    name: simple-consumer-movie
+
+eureka:
+  server:
+    port: 8761
+    hostname: eureka01
+  server2:
+    port: 8762
+    hostname: eureka02  
+ 
+
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://${eureka.server.hostname}:${eureka.server.port}/eureka/,http://${eureka.server2.hostname}:${eureka.server2.port}/eureka/
+      healthcheck:
+          enabled: true
+          
+  instance:
+    prefer-ip-address: true 
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+    statusPageUrlPath: ${management.context-path}/info
+    healthCheckUrlPath: ${management.context-path}/health
+    metadata-map:
+      movie: simple-consumer-movie
+      abc: test
+      zone: beijing
+      
+    leaseRenewalIntervalInSeconds: 10
