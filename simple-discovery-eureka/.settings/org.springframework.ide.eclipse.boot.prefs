@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+spring.boot.launch.profile.history=--spring.profiles.active\=eureka01;--spring.profiles.active\=eureka02;

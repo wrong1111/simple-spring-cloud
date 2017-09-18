@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: simple-discovery-eureka-ha
+
+
+ 

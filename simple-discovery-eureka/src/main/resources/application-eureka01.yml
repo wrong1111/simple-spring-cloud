@@ -1,0 +1,17 @@
+spring:
+  profiles: eureka01
+  
+server:
+  port: 8761
+  
+
+eureka:
+  instance:
+    metadata-map:
+      zone: beijing
+    hostname: eureka01
+    perferIpAddress: true
+    ipAdress: 127.0.0.1
+  client:
+    serviceUrl:
+      defaultZone:  http://eureka01:8762/eureka/
