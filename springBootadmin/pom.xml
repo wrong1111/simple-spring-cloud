@@ -48,6 +48,14 @@
             <artifactId>spring-boot-admin-starter-client</artifactId>
             <version>1.5.4</version>
         </dependency>
+
+        <!-- Hystrix UI Module -->
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-server-ui-hystrix</artifactId>
+            <version>1.5.7</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

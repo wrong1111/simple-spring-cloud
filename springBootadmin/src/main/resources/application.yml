@@ -2,6 +2,10 @@ server:
   port: 8000
 
 spring:
+  boot:
+    admin:
+      routes:
+        endpoints: env,metrics,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hystrix.stream
   application:
     name: spring-boot-admin
 
