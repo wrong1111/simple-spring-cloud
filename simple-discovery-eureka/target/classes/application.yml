@@ -1,6 +1,18 @@
 spring:
   application:
     name: simple-discovery-eureka-ha
+  freemarker:
+    prefer-file-system-access: false
+  boot:
+    admin:
+      client:
+        enabled: true
+      url: http://localhost:8000
+management:
+  security:
+    enabled: false
+
+
 
 
  

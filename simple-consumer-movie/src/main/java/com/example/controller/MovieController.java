@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.UserConfig;
 import com.example.pojo.User;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
@@ -25,12 +24,10 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 @RequestMapping("/movie")
 public class MovieController {
 
+    //使用的是eureka注册中心，此处应该使用实例名即，yml中的 application.name
+    static String userServiceUrl = "http://simple-provider-user:8000/user/";
+
 	private static final Logger LOGGER = LoggerFactory.getLogger(MovieController.class);
-	
-	@Autowired
-	UserConfig userConfig;
-
-
 	
 	@Autowired
 	private LoadBalancerClient loadBalancerClient; 
@@ -56,7 +53,7 @@ public class MovieController {
 	 */
 	@GetMapping("/user/{id}")
 	public User findById(@PathVariable Integer id) { 
-		return this.restTemplate.getForObject(userConfig.getUserServiceUrl() + id, User.class);
+		return this.restTemplate.getForObject(userServiceUrl + id, User.class);
 	}
  
 

@@ -1,17 +1,25 @@
 spring:
   profiles: eureka01
-  
+  boot:
+    admin:
+      url: http://localhost:8000
+      client:
+        name: eureka01
 server:
   port: 8761
   
 
 eureka:
   instance:
+    leaseRenewalIntervalInSeconds: 10
     metadata-map:
       zone: beijing
     hostname: eureka01
-    perferIpAddress: true
-    ipAdress: 127.0.0.1
+    #perferIpAddress: true
+    #ipAdress: 127.0.0.1
   client:
+    registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone:  http://eureka01:8762/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    register-with-eureka: false
+    fetch-registry: false
