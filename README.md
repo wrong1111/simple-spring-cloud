@@ -1,6 +1,9 @@
 # simple-spring-cloud
 spring-cloud模块的应用
-版本 springcloud Dalston.SR3
+
+springbootadmin版本 
+
+springcloud Dalston.SR3
     springboot 1.5.4
     spring-boot-admin-server 1.5.4
     spring-boot-admin-server-ui 1.5.4
