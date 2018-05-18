@@ -1,3 +1,11 @@
+security:
+  user:
+    name: user
+    password: password
+management:
+  security:
+    enabled: false
+
 spring:
   application:
     name: simple-discovery-eureka-ha
@@ -6,11 +14,12 @@ spring:
   boot:
     admin:
       client:
+        name: ${spring.application.name}:${server.port}
         enabled: true
-      url: http://localhost:8000
-management:
-  security:
-    enabled: false
+      url: http://localhost:28000
+      username: ${security.user.name}
+      password: ${security.user.password}
+
 
 
 
