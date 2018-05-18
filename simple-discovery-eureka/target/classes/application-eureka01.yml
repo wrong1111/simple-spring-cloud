@@ -1,10 +1,10 @@
+
+
 spring:
+  application:
+    name: erueka01
   profiles: eureka01
-  boot:
-    admin:
-      url: http://localhost:8000
-      client:
-        name: eureka01
+
 server:
   port: 8761
   
@@ -13,7 +13,8 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
     metadata-map:
-      zone: beijing
+          user.name: ${security.user.name}
+          user.password: ${security.user.password}
     hostname: eureka01
     #perferIpAddress: true
     #ipAdress: 127.0.0.1

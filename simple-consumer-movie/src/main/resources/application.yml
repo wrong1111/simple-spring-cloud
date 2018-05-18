@@ -1,5 +1,5 @@
 server:
-  port: 8010
+  port: 28010
 
 spring:
   application:
@@ -7,7 +7,7 @@ spring:
 
 eureka:
   server:
-    port: 8761
+    port: 28761
     hostname: eureka01
 
   client:
