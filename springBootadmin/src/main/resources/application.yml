@@ -1,6 +1,9 @@
 server:
   port: 28000
 spring:
+  jackson:
+    serialization:
+      indent_output: true
   application:
     name: spring-boot-admin
   mail:
@@ -30,5 +33,9 @@ eureka:
 management:
   security:
     enabled: false
+
+endpoints:
+  health:
+    sensitive: false
 info:
   version: @project.version@
