@@ -2,7 +2,7 @@ server:
   port: 28000
 spring:
   application:
-    name: service-admin
+    name: spring-boot-admin
   mail:
     host: smtp.126.com
     username: wrong1111@126.com
