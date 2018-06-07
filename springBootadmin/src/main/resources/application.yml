@@ -12,6 +12,7 @@ spring:
       mail.smtp.auth: true
   boot:
     admin:
+      url: http://testapi.33n33.top:28000
       notify:
         mail:
           to: 343886028@qq.com
