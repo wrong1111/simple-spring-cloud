@@ -2,148 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d12ea6-7bc9-46a7-8b2c-8b336e06f0e0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../simple-provider-user/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_11_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springBootadmin/src/main/resources/logback-spring.xml" />
       <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../simple-consumer-movie/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../simple-consumer-movie/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/classes/com/example/SimpleConsumerMovieApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/classes/com/example/UserConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/classes/com/example/controller/MovieController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/classes/com/example/pojo/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/HdrHistogram-2.1.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/android-json-0.0.20131108.vaadin1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/antlr-runtime-3.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/archaius-core-0.7.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/asm-5.0.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/bcpkix-jdk15on-1.55.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/bcprov-jdk15on-1.55.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/classmate-1.3.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/commons-collections-3.2.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/commons-configuration-1.8.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/commons-jxpath-1.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/commons-math-2.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/eureka-client-1.4.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/eureka-core-1.4.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/governator-1.12.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/governator-api-1.12.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/governator-core-1.12.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/gson-2.8.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/guava-18.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/guice-4.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/guice-assistedinject-4.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/guice-grapher-4.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/guice-multibindings-4.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/hibernate-validator-5.3.5.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/httpclient-4.5.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/httpcore-4.4.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/hystrix-core-1.5.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jackson-core-2.8.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jackson-databind-2.8.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jersey-apache-client4-1.19.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jersey-client-1.19.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jersey-core-1.19.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jettison-1.3.7.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/joda-time-2.9.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jsr311-api-1.1.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/logback-classic-1.1.11.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/logback-core-1.1.11.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netflix-commons-util-0.1.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netflix-eventbus-0.3.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netflix-infix-0.3.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netflix-statistics-0.1.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netty-buffer-4.0.27.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netty-codec-4.0.27.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netty-codec-http-4.0.27.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netty-common-4.0.27.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netty-handler-4.0.27.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netty-transport-4.0.27.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/netty-transport-native-epoll-4.0.27.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/ribbon-2.2.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/ribbon-core-2.2.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/ribbon-eureka-2.2.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/ribbon-httpclient-2.2.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/ribbon-loadbalancer-2.2.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/ribbon-transport-2.2.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/rxjava-1.1.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/rxnetty-0.4.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/rxnetty-contexts-0.4.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/rxnetty-servo-0.4.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/servo-core-0.10.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/servo-internal-0.10.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-aop-4.3.10.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-beans-4.3.10.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-actuator-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-autoconfigure-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-configuration-processor-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-devtools-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-starter-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-starter-actuator-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-starter-logging-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-starter-tomcat-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-boot-starter-web-1.5.6.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-cloud-commons-1.1.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-cloud-context-1.1.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-cloud-netflix-core-1.2.7.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-cloud-netflix-eureka-client-1.2.7.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-cloud-starter-1.1.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-cloud-starter-archaius-1.2.7.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-cloud-starter-eureka-1.2.7.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-cloud-starter-ribbon-1.2.7.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-context-4.3.10.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-core-4.3.10.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-expression-4.3.10.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-security-crypto-4.2.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-security-rsa-1.0.3.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-web-4.3.10.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/spring-webmvc-4.3.10.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/stax-api-1.0-2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/stax2-api-3.1.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/stringtemplate-3.2.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/tomcat-embed-el-8.5.16.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/tomcat-embed-websocket-8.5.16.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/woodstox-core-asl-4.4.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/xmlpull-1.1.3.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/xpp3_min-1.1.4c.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/WEB-INF/lib/xstream-1.4.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/classes/com/example/SimpleConsumerMovieApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/classes/com/example/controller/MovieController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/classes/com/example/pojo/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/simple-consumer-movie-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../simple-consumer-movie/target/simple-consumer-movie-0.0.1-SNAPSHOT.jar.original" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-eureka01.yml" afterPath="$PROJECT_DIR$/src/main/resources/application-eureka01.yml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-eureka02.yml" afterPath="$PROJECT_DIR$/src/main/resources/application-eureka02.yml" />
       <change beforePath="$PROJECT_DIR$/target/classes/application-eureka01.yml" afterPath="$PROJECT_DIR$/target/classes/application-eureka01.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-eureka02.yml" afterPath="$PROJECT_DIR$/target/classes/application-eureka02.yml" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
       <change beforePath="$PROJECT_DIR$/../simple-provider-user/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../simple-provider-user/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../simple-provider-user/pom.xml" afterPath="$PROJECT_DIR$/../simple-provider-user/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../simple-provider-user/simple-provider-user.iml" afterPath="$PROJECT_DIR$/../simple-provider-user/simple-provider-user.iml" />
       <change beforePath="$PROJECT_DIR$/../simple-provider-user/src/main/resources/application-user01.yml" afterPath="$PROJECT_DIR$/../simple-provider-user/src/main/resources/application-user01.yml" />
       <change beforePath="$PROJECT_DIR$/../simple-provider-user/src/main/resources/application-user02.yml" afterPath="$PROJECT_DIR$/../simple-provider-user/src/main/resources/application-user02.yml" />
       <change beforePath="$PROJECT_DIR$/../simple-provider-user/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../simple-provider-user/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/../simple-provider-user/target/classes/application-user01.yml" afterPath="$PROJECT_DIR$/../simple-provider-user/target/classes/application-user01.yml" />
-      <change beforePath="$PROJECT_DIR$/../simple-provider-user/target/classes/application-user02.yml" afterPath="$PROJECT_DIR$/../simple-provider-user/target/classes/application-user02.yml" />
-      <change beforePath="$PROJECT_DIR$/../simple-provider-user/target/classes/application.yml" afterPath="$PROJECT_DIR$/../simple-provider-user/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_google_code_gson_gson_2_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_netflix_rxnetty_rx_netty_0_3_18.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_netflix_turbine_turbine_core_2_0_0_DP_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__com_rabbitmq_http_client_1_1_1_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_hystrix_1_5_7.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_hystrix_1_5_4.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_login_1_5_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_turbine_1_5_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_1_5_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_buffer_4_0_21_Final.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_buffer_4_0_27_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_codec_4_0_21_Final.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_codec_4_0_27_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_21_Final.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_27_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_common_4_0_21_Final.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_common_4_0_27_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_handler_4_0_21_Final.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_handler_4_0_27_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_transport_4_0_21_Final.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_transport_4_0_27_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_21_Final.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_27_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_15.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_20.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_15.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_20.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_15.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_20.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_jolokia_jolokia_core_1_3_6.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_jolokia_jolokia_core_1_3_7.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_7_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_7_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_4_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_5_4_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_stream_1_3_4_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_1_2_1_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_turbine_stream_1_3_4_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_1_2_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_1_2_1_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_1_2_1_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_codec_1_2_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_4_3_10_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_4_3_10_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_4_3_10_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_0_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_9_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_test_4_3_11_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/misc.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springBootadmin/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/pom.xml" afterPath="$PROJECT_DIR$/../springBootadmin/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/springBootadmin.iml" afterPath="$PROJECT_DIR$/../springBootadmin/springBootadmin.iml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/src/main/java/com/xuahua/SecurityConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/src/main/java/com/xuahua/SpringbtAdminServerApplication.java" afterPath="$PROJECT_DIR$/../springBootadmin/src/main/java/com/xuahua/SpringbtAdminServerApplication.java" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../springBootadmin/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../springBootadmin/target/classes/application.yml" afterPath="$PROJECT_DIR$/../springBootadmin/target/classes/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,8 +133,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -181,8 +143,8 @@
       <file leaf-file-name="application-eureka01.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-eureka01.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -191,8 +153,8 @@
       <file leaf-file-name="application-eureka02.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-eureka02.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="105">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -215,9 +177,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-eureka02.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-eureka01.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-eureka01.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-eureka02.yml" />
       </list>
     </option>
   </component>
@@ -291,13 +253,15 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="25" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -313,6 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -344,8 +310,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,7 +346,7 @@
     </option>
     <option name="contentProportion" value="0.06344016" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringEurekaApplication">
+  <component name="RunManager" selected="Spring Boot.SpringEurekaApplication2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -505,7 +469,9 @@
       <workItem from="1525962962437" duration="688000" />
       <workItem from="1526136357354" duration="1035000" />
       <workItem from="1526168107854" duration="5909000" />
-      <workItem from="1526626932824" duration="2040000" />
+      <workItem from="1526626932824" duration="3277000" />
+      <workItem from="1528343962906" duration="1119000" />
+      <workItem from="1528345627178" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="euroka">
       <created>1526630070920</created>
@@ -518,10 +484,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18662000" />
+    <option name="totallyTimeSpent" value="21629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -539,12 +505,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2718708" sideWeight="0.4974293" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.461642" sideWeight="0.4974293" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12339332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17030849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -576,6 +542,76 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/SpringEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#SpringEurekaApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-eureka01.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-eureka02.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/SpringEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#SpringEurekaApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-eureka01.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-eureka02.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/SpringEurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -780,24 +816,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-eureka02.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-eureka01.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
         </state>
       </provider>
