@@ -21,6 +21,6 @@ eureka:
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://eureka02:28761/eureka/
+      defaultZone: http://${security.user.name}:${security.user.password}@erueka03:28763/eureka/,http://${security.user.name}:${security.user.password}@erueka01:28761/eureka/
     register-with-eureka: false
     fetch-registry: false
