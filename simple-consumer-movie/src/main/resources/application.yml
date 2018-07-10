@@ -35,6 +35,4 @@ eureka:
   instance:
     prefer-ip-address: false
     instance-id: ${spring.application.name}:${server.port}
-    statusPageUrlPath: ${management.context-path}/info
-    healthCheckUrlPath: ${management.context-path}/health
     leaseRenewalIntervalInSeconds: 10
