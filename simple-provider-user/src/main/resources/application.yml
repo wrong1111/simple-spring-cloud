@@ -39,7 +39,7 @@ spring:
     name: simple-provider-user
   boot:
     admin:
-      url: http://localhost:8000
+      url: http://localhost:28000
       client:
         name: ${spring.application.name}:${server.port}
       enabled: true
