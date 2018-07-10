@@ -54,14 +54,14 @@ logging:
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
     com.example: DEBUG
 
- 
+
+eureka:
   client:
+    fetch-registry: true
     service-url:
       defaultZone: http://user:password@eureka01:28761/eureka/,http://user:password@eureka02:28762/eureka/,http://user:password@eureka03:28763/eureka/
-      healthcheck:
-          enabled: true
-  instance:
-    prefer-ip-address: true
-    instance-id: ${spring.application.name}:${server.port}
 
+  instance:
+    prefer-ip-address: false
+    instance-id: ${spring.application.name}:${server.port}
 
