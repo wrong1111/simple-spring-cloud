@@ -25,7 +25,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 public class MovieController {
 
     //使用的是eureka注册中心，此处应该使用实例名即，yml中的 application.name
-    static String userServiceUrl = "http://simple-provider-user:8000/user/";
+    static String userServiceUrl = "http://SIMPLE-PROVIDER-USER/user/";
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(MovieController.class);
 	
