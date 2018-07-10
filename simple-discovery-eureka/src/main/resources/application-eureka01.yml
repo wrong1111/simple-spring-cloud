@@ -2,7 +2,7 @@
 
 spring:
   application:
-    name: erueka01
+    name: eureka01
   profiles: eureka01
 
 server:
@@ -21,6 +21,6 @@ eureka:
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://${security.user.name}:${security.user.password}@erueka02:28762/eureka/,http://${security.user.name}:${security.user.password}@erueka03:28763/eureka/
+      defaultZone: http://${security.user.name}:${security.user.password}@eureka02:28762/eureka/,http://${security.user.name}:${security.user.password}@eureka03:28763/eureka/
     register-with-eureka: false
     fetch-registry: false

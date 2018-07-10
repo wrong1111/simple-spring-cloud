@@ -2,6 +2,8 @@ security:
   user:
     name: user
     password: password
+  basic:
+    enabled: true
 management:
   security:
     enabled: false
