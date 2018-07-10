@@ -1,25 +1,40 @@
 server:
   port: 28010
+security:
+  user:
+    name: user
+    password: password
+  basic:
+    enabled: true
+management:
+  security:
+    enabled: false
 
 spring:
   application:
     name: simple-consumer-movie
+  boot:
+      admin:
+        url: http://localhost:28000
+        client:
+          name: ${spring.application.name}:${server.port}
+        enabled: true
+        username: ${security.user.name}
+        password: ${security.user.password}
+
 
 eureka:
-  server:
-    port: 28761
-    hostname: eureka01
-
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://${eureka.server.hostname}:${eureka.server.port}/eureka/
+      defaultZone: http://user:password@eureka01:28761/eureka/,http://user:password@eureka02:28762/eureka/,http://user:password@eureka03:28763/eureka/
       healthcheck:
           enabled: true
+    fetch-registry: true
           
   instance:
-    prefer-ip-address: true 
-    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+    prefer-ip-address: false
+    instance-id: ${spring.application.name}:${server.port}
     statusPageUrlPath: ${management.context-path}/info
     healthCheckUrlPath: ${management.context-path}/health
     leaseRenewalIntervalInSeconds: 10
