@@ -2,9 +2,11 @@ security:
   user:
     name: user
     password: password
+  basic:
+    enabled: true
 management:
   security:
-    enabled: false
+    enabled: true
 info:
   app:
     name: ${project.name}
@@ -53,15 +55,9 @@ logging:
     com.example: DEBUG
 
  
-
-eureka:
-  server:
-    port: 8761
-    hostname: eureka01
-
   client:
     service-url:
-      defaultZone: http://${eureka.server.hostname}:${eureka.server.port}/eureka/
+      defaultZone: http://user:password@eureka01:28761/eureka/,http://user:password@eureka02:28762/eureka/,http://user:password@eureka03:28763/eureka/
       healthcheck:
           enabled: true
   instance:
