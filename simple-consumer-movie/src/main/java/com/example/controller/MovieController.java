@@ -26,7 +26,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 public class MovieController {
 
     //使用的是eureka注册中心，此处应该使用实例名即，yml中的 application.name
-    static String userServiceUrl = "http://SIMPLE-PROVIDER-USER/user";
+    static String userServiceUrl = "http://SIMPLE-PROVIDER-USER/user/find";
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(MovieController.class);
 	
@@ -65,7 +65,10 @@ public class MovieController {
         return userServiceRemote.findUserById(id);
     }
 
-	
+    @GetMapping("/feign/find/{id}")
+    public User findBy(@PathVariable Integer id){
+        return userServiceRemote.findById(id);
+    }
     /**
 	 * 用于处理rpc内部请求处理的默认内置处理类
 	 * @return
