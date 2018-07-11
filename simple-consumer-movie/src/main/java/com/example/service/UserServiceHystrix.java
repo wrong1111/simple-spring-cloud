@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class UserServiceHystrix implements UserServiceRemote{
 
     /**
-     * 注意，feign调用 requestParam时，需要指定 value="xx"，否则会默认是queryMap
-     *
      * @param id
      * @return
      */
