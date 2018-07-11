@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name= "SIMPLE-PROVIDER-USER")
 public interface UserServiceRemote {
 
+    /**
+     * 注意，feign调用 requestParam时，需要指定 value="xx"，否则会默认是queryMap
+     * @param id
+     * @return
+     */
     @RequestMapping(value = "/user/find")
     public User findUserById(@RequestParam(value="id")  Integer id);
 
