@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface UserServiceRemote {
 
     @RequestMapping(value = "/user/find")
-    public User findUserById(@RequestParam(value = "id") Integer id);
+    public User findUserById(@RequestParam  Integer id);
 
 
     @RequestMapping(value = "/user/find/{id}")
-    public User findById(@PathVariable Integer id);
+    public User findById(@PathVariable(value="id") Integer id);
 }
