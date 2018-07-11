@@ -60,7 +60,7 @@ public class MovieController {
     @Autowired
     UserServiceRemote userServiceRemote;
 
-    @GetMapping("/user/{id}")
+    @GetMapping("/feign/{id}")
 	public User findByFeigin(@PathVariable Integer id){
         System.out.println("feigin请求..");
         return userServiceRemote.findUserById(id);
