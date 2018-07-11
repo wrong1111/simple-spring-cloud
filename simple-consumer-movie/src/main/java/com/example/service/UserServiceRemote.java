@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * feign调用实现
  */
-@FeignClient(name= "SIMPLE-PROVIDER-USER")
+@FeignClient(name= "SIMPLE-PROVIDER-USER",fallback = UserServiceHystrix.class)
 public interface UserServiceRemote {
 
     /**
