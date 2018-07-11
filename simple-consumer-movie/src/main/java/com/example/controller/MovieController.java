@@ -1,5 +1,6 @@
 package com.example.controller;
 
+import com.example.service.UserServiceRemote;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,7 +56,15 @@ public class MovieController {
 	public User findById(@PathVariable Integer id) { 
 		return this.restTemplate.getForObject(userServiceUrl + id, User.class);
 	}
- 
+
+    @Autowired
+    UserServiceRemote userServiceRemote;
+
+    @GetMapping("/user/{id}")
+	public User findByFeigin(@PathVariable Integer id){
+        System.out.println("feigin请求..");
+        return userServiceRemote.findUserById(id);
+    }
 
 	
     /**
