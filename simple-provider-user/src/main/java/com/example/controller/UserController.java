@@ -7,18 +7,19 @@ import com.example.dao.UserRepository;
 import com.example.model.User;
 
 @RestController
+@RequestMapping("/user")
 public class UserController {
 
 	@Autowired
 	UserRepository userRepository;
 	
-	@RequestMapping("/user")
+	@RequestMapping("/find")
 	public User findById(@RequestParam Integer id) {
 		User findOne = this.userRepository.findOne(id);
 		return findOne;
 	}
 
-	@GetMapping("/user/{id}")
+	@GetMapping("/find/{id}")
     public User findByUserId(@PathVariable Integer id){
         User findOne = this.userRepository.findOne(id);
         return findOne;
