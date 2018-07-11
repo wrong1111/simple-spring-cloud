@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * feign调用实现
  */
-@FeignClient(name= "simple-provider-user")
+@FeignClient(name= "SIMPLE-PROVIDER-USER")
 public interface UserServiceRemote {
 
     @RequestMapping(value = "/user")
