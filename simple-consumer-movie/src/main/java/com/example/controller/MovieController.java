@@ -9,10 +9,7 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import com.example.pojo.User;
@@ -60,8 +57,8 @@ public class MovieController {
     @Autowired
     UserServiceRemote userServiceRemote;
 
-    @GetMapping("/feign/{id}")
-	public User findByFeigin(@PathVariable Integer id){
+    @GetMapping("/feign")
+	public User findByFeigin(@RequestParam Integer id){
         return userServiceRemote.findUserById(id);
     }
 
