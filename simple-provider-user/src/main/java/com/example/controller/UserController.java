@@ -10,13 +10,12 @@ import com.example.dao.UserRepository;
 import com.example.model.User;
 
 @RestController
-@RequestMapping("/user")
 public class UserController {
 
 	@Autowired
 	UserRepository userRepository;
 	
-	@GetMapping("/{id}")
+	@GetMapping("/user/{id}")
 	public User findById(@PathVariable Integer id) {
 		User findOne = this.userRepository.findOne(id);
 		return findOne;
