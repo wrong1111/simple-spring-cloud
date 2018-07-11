@@ -17,4 +17,10 @@ public class UserController {
 		User findOne = this.userRepository.findOne(id);
 		return findOne;
 	}
+
+	@GetMapping("/user/{id}")
+    public User findByUserId(@PathVariable Integer id){
+        User findOne = this.userRepository.findOne(id);
+        return findOne;
+    }
 }
