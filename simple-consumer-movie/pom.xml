@@ -61,6 +61,12 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+        <!-- springbootadmin 客户端1.5.7-->
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
+            <version>1.5.7</version>
+        </dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
