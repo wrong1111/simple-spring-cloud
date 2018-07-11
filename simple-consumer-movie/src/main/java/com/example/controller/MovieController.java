@@ -26,7 +26,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 public class MovieController {
 
     //使用的是eureka注册中心，此处应该使用实例名即，yml中的 application.name
-    static String userServiceUrl = "http://SIMPLE-PROVIDER-USER/user/";
+    static String userServiceUrl = "http://SIMPLE-PROVIDER-USER/user";
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(MovieController.class);
 	
@@ -54,7 +54,7 @@ public class MovieController {
 	 */
 	@GetMapping("/user/{id}")
 	public User findById(@PathVariable Integer id) { 
-		return this.restTemplate.getForObject(userServiceUrl + id, User.class);
+		return this.restTemplate.getForObject(userServiceUrl +"?id=" +id, User.class);
 	}
 
     @Autowired
@@ -62,7 +62,6 @@ public class MovieController {
 
     @GetMapping("/feign/{id}")
 	public User findByFeigin(@PathVariable Integer id){
-        System.out.println("feigin请求..");
         return userServiceRemote.findUserById(id);
     }
 
