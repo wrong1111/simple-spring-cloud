@@ -54,6 +54,7 @@ public class MovieController {
 		return this.restTemplate.getForObject(userServiceUrl +"?id=" +id, User.class);
 	}
 
+	/**********feign 实现负载请求*************/
     @Autowired
     UserServiceRemote userServiceRemote;
 
