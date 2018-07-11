@@ -50,7 +50,7 @@ public class MovieController {
 	 * @return
 	 */
 	@GetMapping("/user/{id}")
-	public User findById(@PathVariable Integer id) { 
+	public User findById(@PathVariable(value="id") Integer id) {
 		return this.restTemplate.getForObject(userServiceUrl +"?id=" +id, User.class);
 	}
 
@@ -63,7 +63,7 @@ public class MovieController {
     }
 
     @GetMapping("/feign/find/{id}")
-    public User findBy(@PathVariable Integer id){
+    public User findBy(@PathVariable(value="id") Integer id){
         return userServiceRemote.findById(id);
     }
     /**
