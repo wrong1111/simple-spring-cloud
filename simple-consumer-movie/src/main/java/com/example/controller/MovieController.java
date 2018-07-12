@@ -4,6 +4,7 @@ import com.example.service.UserServiceRemote;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -15,13 +16,22 @@ import org.springframework.web.client.RestTemplate;
 import com.example.pojo.User;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
-import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 
 @RestController
 @RequestMapping("/movie")
 public class MovieController {
 
+    @Value("${movie.name}")
+    private String name;
+
+    @Value("${movie.url}")
+    private String url;
+
+    @GetMapping("/test")
+    public String val(){
+        return name+"-"+url;
+    }
     //使用的是eureka注册中心，此处应该使用实例名即，yml中的 application.name
     static String userServiceUrl = "http://SIMPLE-PROVIDER-USER/user/find";
 
