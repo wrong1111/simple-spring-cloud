@@ -9,6 +9,7 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -20,8 +21,13 @@ import com.netflix.discovery.EurekaClient;
 
 @RestController
 @RequestMapping("/movie")
+@RefreshScope
 public class MovieController {
 
+    /**
+     * config server 配置需要在bootstrap.propertie中指定
+     * 因为bootstrap优先于properties执行。
+     * **/
     @Value("${movie.name}")
     private String name;
 
