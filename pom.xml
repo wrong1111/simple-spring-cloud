@@ -14,6 +14,7 @@
 		<module>simple-provider-user</module>
 		<module>simple-hystrix-turbine</module>
         <module>simple-consumer-movie</module>
+        <module>simple-config-server</module>
 	</modules>
 	<dependencies>
 	  
