@@ -1,4 +1,7 @@
 /target/
+/.idea/
+/.mvn/
+/.settings/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
