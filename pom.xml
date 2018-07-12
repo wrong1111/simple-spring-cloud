@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>simple.springcloud</groupId>
+	<artifactId>simple-springcolud-demo</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>simple-springcolud-demo</name>
+	<modules>
+		<module>simple-discovery-eureka</module>
+		<module>springBootadmin</module>
+		<module>simple-provider-user</module>
+		<module>simple-hystrix-turbine</module>
+        <module>simple-consumer-movie</module>
+	</modules>
+	<dependencies>
+	  
+	</dependencies>
+	<build>
+		<finalName>simple.springcloud.demo</finalName>
+	</build>
+
+</project>
