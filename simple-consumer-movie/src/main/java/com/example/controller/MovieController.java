@@ -9,7 +9,6 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -21,7 +20,8 @@ import com.netflix.discovery.EurekaClient;
 
 @RestController
 @RequestMapping("/movie")
-@RefreshScope
+//@RefreshScope
+// 此处的refreshscope与 静态的restTemplate 冲突，提示异常。wyong edit 2018-07-12
 public class MovieController {
 
     /**
