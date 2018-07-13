@@ -29,3 +29,6 @@ springcloud Dalston.SR3
  
  2,使用注册中心刷新 @RefreshScope时，与robin定义的restTemplate 产生冲突，需要分开使用。
  
+ 3,客户端获取最新的属性文件，需要POST请求refresh。
+ 如  curl -X POST http://app:port/refresh
+ 
