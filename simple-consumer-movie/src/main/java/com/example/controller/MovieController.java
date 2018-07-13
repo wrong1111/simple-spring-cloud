@@ -20,24 +20,9 @@ import com.netflix.discovery.EurekaClient;
 
 @RestController
 @RequestMapping("/movie")
-//@RefreshScope
-// 此处的refreshscope与 静态的restTemplate 冲突，提示异常。wyong edit 2018-07-12
 public class MovieController {
 
-    /**
-     * config server 配置需要在bootstrap.propertie中指定
-     * 因为bootstrap优先于properties执行。
-     * **/
-    @Value("${movie.name}")
-    private String name;
 
-    @Value("${movie.url}")
-    private String url;
-
-    @GetMapping("/test")
-    public String val(){
-        return name+"-"+url;
-    }
     //使用的是eureka注册中心，此处应该使用实例名即，yml中的 application.name
     static String userServiceUrl = "http://SIMPLE-PROVIDER-USER/user/find";
 
