@@ -2,11 +2,11 @@
 
 spring:
   application:
-    name: erueka01
+    name: eureka01
   profiles: eureka01
 
 server:
-  port: 8761
+  port: 28761
   
 
 eureka:
@@ -21,6 +21,6 @@ eureka:
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${security.user.name}:${security.user.password}@eureka02:28762/eureka/,http://${security.user.name}:${security.user.password}@eureka03:28763/eureka/
     register-with-eureka: false
     fetch-registry: false

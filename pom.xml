@@ -15,6 +15,7 @@
 		<module>simple-hystrix-turbine</module>
         <module>simple-consumer-movie</module>
         <module>simple-config-server</module>
+        <module>simple-spring-zuul</module>
 	</modules>
 	<dependencies>
 	  

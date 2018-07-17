@@ -2,6 +2,8 @@ security:
   user:
     name: user
     password: password
+  basic:
+    enabled: true
 management:
   security:
     enabled: false
@@ -16,7 +18,7 @@ spring:
       client:
         name: ${spring.application.name}:${server.port}
         enabled: true
-      url: http://localhost:8000
+      url: http://localhost:28000
       username: ${security.user.name}
       password: ${security.user.password}
 
