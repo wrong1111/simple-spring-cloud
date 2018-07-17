@@ -15,8 +15,8 @@ public class SimpleSpringZuulApplication {
 		SpringApplication.run(SimpleSpringZuulApplication.class, args);
 	}
 
-    @Bean
-    public TokenFilter tokenFilter() {
-        return new TokenFilter();
-    }
+//    @Bean
+//    public TokenFilter tokenFilter() {
+//        return new TokenFilter();
+//    }
 }
